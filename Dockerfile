@@ -5,7 +5,10 @@ RUN apt-get update && apt-get install openjdk-17-jdk maven -y
 
 WORKDIR /petshop/codigo/back-end/petshop
 
-COPY . .
+COPY pom.xml .
+RUN mvn dependency:go-offline
+
+COPY src ./src
 
 RUN mvn clean install
 
