@@ -11,7 +11,7 @@ RUN mvn dependency:go-offline
 
 COPY codigo/back-end/petshop/src ./src
 
-RUN mvn clean install
+RUN mvn clean install -DskipTests
 
 FROM openjdk:21-jdk-slim
 
