@@ -95,7 +95,7 @@ o mais próximo do canil.
 
 <https://melhor-petshop-front.onrender.com/>
 
-OBS: A página pode demorar um pouco para ser carregada.
+OBS: A página pode demorar um pouco para ser carregada, assim como o formulário pode demorar para ser enviado devido ao uso de uma hospesdagem gratuita.
 
 **Uso do sistema**
 
